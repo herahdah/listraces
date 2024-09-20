@@ -35,7 +35,7 @@ export default function Howitworks() {
             <div className='flex ml-24 mr-16 mt-14'>
                 {
                     works.map((workseach,index)=>(
-                        <div className='bg-white shadow-inner rounded-md w-[25%] m-9 h-[50vh] flex items-center justify-center flex-col hover:bg-red-500  transition-all'>
+                        <div className='bg-white shadow-2xl rounded-md w-[25%] m-9 h-[50vh] flex items-center justify-center flex-col hover:bg-red-500  transition-all'>
                             {workseach.icon }
                             <h1 className='mt-7 text-2xl '>{workseach.choose}</h1>
                             <h3 className='mt-5'>{workseach.text}</h3>
