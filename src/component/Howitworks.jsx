@@ -37,9 +37,9 @@ export default function Howitworks() {
                     works.map((workseach,index)=>(
                         <div className='bg-white shadow-inner rounded-md w-[25%] m-9 h-[50vh] flex items-center justify-center flex-col hover:bg-red-500  transition-all'>
                             {workseach.icon }
-                            <h1>{workseach.choose}</h1>
-                            <h3>{workseach.text}</h3>
-                            <button className='  bg-white border px-6 py-2'> {workseach.last}</button>
+                            <h1 className='mt-7 text-2xl '>{workseach.choose}</h1>
+                            <h3 className='mt-5'>{workseach.text}</h3>
+                            <button className='  bg-white border px-6 py-2 mt-5'> {workseach.last}</button>
                         </div>
                     ))
                 }
