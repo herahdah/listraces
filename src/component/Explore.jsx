@@ -6,6 +6,7 @@ export default function Explore() {
         {
             image:image1,
             tom:'Tommy Helfinger Bar',
+            text:"Lorem ipsum dolor sit amet, consectetur</b> adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua...."
 
 
         }

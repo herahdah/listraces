@@ -46,7 +46,7 @@ export default function Heroitem() {
       <div className='flex  gap-10 m-10 ml-36'>
         {
           item.map((itemeach,index)=>(
-            <div className='bg-white w-48 mt-5 h-36 shadow-md rounded-sm flex items-center justify-center flex-col hover:bg-red-500 ' >
+            <div key={index} className='bg-white w-48 mt-5 h-36 shadow-md rounded-sm flex items-center justify-center flex-col hover:bg-red-500 ' >
               {itemeach.icon }
               <h1 className='mt-3 '>{itemeach.text}</h1>
               <p className='mt-3 text-slate-400'>{itemeach.paragraph}</p>
